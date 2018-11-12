@@ -4,7 +4,7 @@ This repository contains my genetic data encoded as an animated GIF of QR codes,
 
 ## `bin2gif.sh`
 
-This script can take any binary data and convert it to an animated GIF of QR codes. It depends on *qrencode* and *ImageMagick*, and optionally can use *Gifsicle* for further compression of the resulting GIF. The usage is as follows:
+This script can take any binary data and encode it as an animated GIF of QR codes. It depends on *qrencode* and *ImageMagick*, and optionally can use *Gifsicle* for further compression of the resulting GIF. The usage is as follows:
 
     usage: bin2gif.sh <input file> <output gif>
 
